@@ -10,7 +10,7 @@ struct element{
 int main() {
 
     element tab[10];
-    std::string name;
+    
 
     std::cout<<" Podaj imię:";
     std::cin>>name;
