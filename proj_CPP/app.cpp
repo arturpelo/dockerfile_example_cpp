@@ -1,11 +1,13 @@
 #include <iostream>
-#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
 
-struct element{
-    float waga;
-    int cena; 
+struct Przedmiot {
+    int waga;
+    int wartosc;
+    double ratio;
 };
-
 
 int main() {
 
